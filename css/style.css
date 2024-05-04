@@ -1,0 +1,860 @@
+
+
+/* Estilos específicos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+
+    /* Tornar os cards responsivos */
+    .card {
+        width: 90%; /* Porcentagem da largura da tela */
+        max-width: 300px; /* Defina uma largura máxima */
+        margin: 10px auto; /* Centralize horizontalmente */
+    }
+
+    .card h2 {
+        font-size: 16px; /* Reduza o tamanho da fonte */
+    }
+
+    .card p {
+        font-size: 12px; /* Reduza o tamanho da fonte */
+        margin-bottom: 10px; /* Reduza o espaçamento inferior */
+    }
+
+    /* Ajustar o carrossel */
+    #container_carousel {
+        max-width: 90%; /* Porcentagem da largura da tela */
+        margin: 0 auto; /* Centralize horizontalmente */
+    }
+
+    .carousel img {
+        max-width: 100%; /* Garanta que a imagem do carrossel se ajuste à largura */
+    }
+
+    /* Remover o logotipo em dispositivos móveis */
+    .logo {
+
+        display: relative;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        width: 7%;
+        height: 100%;
+        text-align: center; /* Centraliza os elementos filhos */
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+
+    /* Tornar os cards mais estreitos em dispositivos móveis */
+    .card {
+        width: 100%; /* Porcentagem da largura da tela */
+        max-width: none; /* Remova a largura máxima */
+    }
+
+    /* Ajustar o tamanho da fonte para dispositivos móveis */
+    .card h2 {
+        font-size: 14px; /* Tamanho menor da fonte */
+    }
+
+    .card p {
+        font-size: 10px; /* Tamanho menor da fonte */
+        margin-bottom: 5px; /* Reduza o espaçamento inferior */
+    }
+
+    /* Ajustar o tamanho do carrossel para dispositivos móveis */
+    #container_carousel {
+        max-width: 100%; /* Porcentagem da largura da tela */
+    }
+
+    /* Ajustar o carrossel */
+    #container_carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto; /* Altura automática */
+        margin-bottom: 20px; /* Adiciona espaço na parte inferior */
+    }
+
+    .carousel {
+        max-width: 90%; /* Reduz a largura máxima */
+    }
+
+    .carousel img {
+        max-width: 100%; /* Garante que a imagem se ajuste à largura do carrossel */
+        border-radius: 10px; /* Reduz o raio da borda */
+        width: 100%; /* Definir a largura da imagem para 100% do seu contêiner */
+        height: auto; /* Manter a proporção original da imagem */
+    }
+
+    /* Ajustar os estilos do menu de navegação */
+    ul#navmenu li {
+        width: 100%; /* Define a largura total */
+    }
+
+    ul#navmenu a {
+        width: 100%; /* Define a largura total */
+        padding-left: 0; /* Remove o preenchimento à esquerda */
+    }
+
+    /* Ajustar os estilos dos cards */
+    .card {
+        width: 90%; /* Reduz a largura */
+        margin: 10px auto; /* Centraliza horizontalmente */
+        border-radius: 10px; /* Adiciona borda arredondada */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    }
+
+    .card img {
+        width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+        border-top-left-radius: 10px; /* Arredonda o canto superior esquerdo */
+        border-top-right-radius: 10px; /* Arredonda o canto superior direito */
+    }
+
+    .card .content {
+        padding: 20px; /* Adiciona preenchimento interno */
+    }
+
+    .card h2 {
+        font-size: 16px; /* Reduz o tamanho da fonte */
+        margin-bottom: 10px; /* Reduz o espaçamento inferior */
+    }
+
+    .card p {
+        font-size: 12px; /* Reduz o tamanho da fonte */
+        color: #666; /* Define a cor do texto */
+        margin-bottom: 15px; /* Reduz o espaçamento inferior */
+    }
+
+    .card button {
+        background-color: #07b633; /* Cor de fundo do botão */
+        color: #fff; /* Cor do texto do botão */
+        border: none; /* Remove a borda do botão */
+        padding: 10px 20px; /* Adiciona preenchimento interno */
+        border-radius: 5px; /* Adiciona borda arredondada */
+        cursor: pointer; /* Altera o cursor ao passar o mouse */
+        font-size: 14px; /* Define o tamanho da fonte */
+        transition: background-color 0.3s ease; /* Adiciona transição suave */
+        display: flex; /* Permite alinhar o ícone ao texto */
+        align-items: center; /* Alinha o ícone ao centro verticalmente */
+    }
+
+    .card button:hover {
+        background-color: #007928; /* Altera a cor de fundo ao passar o mouse */
+    }
+
+    .card .time {
+        font-size: 12px; /* Define o tamanho da fonte */
+        color: #999; /* Define a cor do texto */
+        margin-top: 10px; /* Adiciona espaçamento superior */
+        text-align: right; /* Alinha o texto à direita */
+    }
+
+    .card .content {
+        padding: 20px; /* Adiciona preenchimento interno */
+        display: flex; /* Permite alinhar os elementos */
+        flex-direction: column; /* Define a direção do layout */
+        align-items: center; /* Alinha os elementos ao centro */
+    }
+
+    /* Ajustar o estilo do logo */
+    .logo {
+        width: 50px; /* Define a largura */
+        height: auto; /* Altura automática */
+        margin-top: 15px; /* Adiciona espaçamento superior */
+        margin-bottom: 15px; /* Adiciona espaçamento inferior */
+    }
+
+    /* Ajustar o estilo dos links */
+    a {
+        display: flex; /* Permite alinhar os elementos */
+        justify-content: center; /* Alinha ao centro horizontalmente */
+        align-items: center; /* Alinha ao centro verticalmente */
+        height: 100%; /* Define a altura */
+    }
+
+    .glyphicon { margin-right:5px; }
+    .thumbnail
+    {
+        margin-bottom: 20px;
+        padding: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 50px;
+    }
+
+    .item.list-group-item
+    {
+        float: none;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 10px;
+        border-radius: 50px;
+    }
+    .item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+    {
+        background: #13beaa;
+        border-radius: 50px;
+    }
+
+    .item.list-group-item .list-group-image
+    {
+        margin-right: 10px;
+        border-radius: 50px;
+    }
+    .item.list-group-item .thumbnail
+    {
+        margin-bottom: 0px;
+        border-radius: 50px;
+    }
+    .item.list-group-item .caption
+    {
+        padding: 9px 9px 0px 9px;
+        border-radius: 100px;
+    }
+    .item.list-group-item:nth-of-type(odd)
+    {
+        background: #eeeeee;
+        border-radius: 100px;
+    }
+
+    .item.list-group-item:before, .item.list-group-item:after
+    {
+        display: table;
+        content: " ";
+        border-radius: 100px;
+    }
+
+    .item.list-group-item img
+    {
+        float: left;
+        border-radius: 100px;
+    }
+    .item.list-group-item:after
+    {
+        clear: both;
+        border-radius: 100px;
+    }
+    .list-group-item-text
+    {
+        margin: 0 0 11px;
+        border-radius: 100px;
+    }
+
+    a   {
+        color:inherit;
+        text-decoration: none;
+        }
+
+ul#navmenu a:hover{
+    color: #FFF;
+    z-index: 1000;
+    }   
+
+
+        ul#navmenu, ul.sub1, ul.sub2 {
+        padding: 10px;
+        list-style-type: none;
+        z-index: 1000;
+        }
+        ul#navmenu li {
+            z-index: 1000;
+            /*outline: 1px solid red*/
+            width: 100px;
+            text-align: center;
+            position: relative;
+            text-align: left;
+        }
+        ul#navmenu a {
+            z-index: 1000;
+            text-decoration: none;
+            display: block;
+            width: 100px;
+            height: 45px;
+            line-height: 45px;
+            background-color: #ffffff;
+            padding-left: 10px;
+        }   
+        ul#navmenu .sub1 li {
+            z-index: 1000;
+
+        }
+        ul#navmenu .su1 a {
+            z-index: 1000;
+            margin-top: 5px;
+
+
+        }
+        ul#navmenu .sub2 a {
+            z-index: 1000;
+            margin-left: 10px;
+            width: 200px;
+
+        }
+        ul#navmenu li:hover > a {
+            z-index: 1000;
+            background-color: #0098ba;
+        }
+        ul#navmenu li:hover a:hover {
+            background-color: #0098ba;
+        }
+        ul#navmenu ul.sub1 {
+            display: none;
+            position: absolute;
+            top: 45px;
+            left: 0px;
+
+        }
+        ul#navmenu ul.sub2 {
+            display: none;
+            position: absolute;
+            top: -92px;
+            left: 200px;
+            width: 800px;
+
+        }
+        ul#navmenu li:hover .sub1 {
+            display: block;
+
+        }
+        ul#navmenu .sub1 li:hover .sub2 {
+            display: block;
+
+        }
+        .sub2  {
+            text-transform: capitalize;
+            font-size: 14px;
+                        }
+        .button  {
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            background-color: #f4f4e8;
+            border: solid 1px #c7c7c7;  
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #006792;     
+            cursor: pointer; 
+            -webkit-appearance: button;
+            box-shadow: inset 0 -1px #c7c7c7;
+        }
+
+
+        .triangleTop {
+
+            position:relative;
+            left: 160px;
+            top: 30px;
+            width: 0;
+            height: 0;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #0098ba;
+            border-left: 10px solid transparent;
+            z-index: 2;
+
+
+        }
+        /* I will fix this &nbsp; business soon */
+        strong {font-size: 12px;}
+
+        .sticky-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #fff; /* Altere a cor de fundo conforme necessário */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+        }
+
+        .sticky {
+            position: fixed;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        }
+
+
+        .valorPreco {
+
+            color: #469d96;
+            font-weight: bold;
+        }
+
+        h2 {
+
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #469d96;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .card {
+            z-index: 1;
+            width: 250px;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .card .content {
+            padding: 20px;
+        }
+        
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .card button {
+            background-color: #07b633;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+        
+        .card button:hover {
+            background-color: #007928;
+        }
+
+        .card .time {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+            text-align: right;
+        }
+        
+        .card .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .button-container {
+            margin-top: 10px;
+        }
+        
+        .card button {
+            background-color: #05b814;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+        
+        .card button .mdi {
+            font-size: 16px;
+            margin-right: 5px;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.5s ease;
+        }
+
+}
+
+/* Estilos específicos para desktop */
+@media only screen and (min-width: 601px) {
+
+    /* Exemplo de estilo específico para desktop */
+    /* Aqui você pode adicionar estilos adicionais específicos para desktop */
+    /* Por exemplo, aumentar o tamanho da fonte, adicionar margens extras, etc. */
+
+    #container_carousel {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 100%; /* Preenche toda a altura da tela */
+    }
+
+    .carousel {
+            max-width: 80%; /* Define a largura máxima do carrossel */
+            text-align: center; /* Centraliza os elementos filhos */
+    }
+
+    .carousel img {
+        border-radius: 20px; /* Arredonda a imagem */
+        overflow: hidden; /* Garante que a imagem arredondada fique dentro do contêiner */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 100%; /* Garante que a imagem não exceda a largura do carrossel */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    .glyphicon { margin-right:5px; }
+    .thumbnail
+    {
+        margin-bottom: 20px;
+        padding: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 50px;
+    }
+
+    .item.list-group-item
+    {
+        float: none;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 10px;
+        border-radius: 50px;
+    }
+    .item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+    {
+        background: #13beaa;
+        border-radius: 50px;
+    }
+
+    .item.list-group-item .list-group-image
+    {
+        margin-right: 10px;
+        border-radius: 50px;
+    }
+    .item.list-group-item .thumbnail
+    {
+        margin-bottom: 0px;
+        border-radius: 50px;
+    }
+    .item.list-group-item .caption
+    {
+        padding: 9px 9px 0px 9px;
+        border-radius: 100px;
+    }
+    .item.list-group-item:nth-of-type(odd)
+    {
+        background: #eeeeee;
+        border-radius: 100px;
+    }
+
+    .item.list-group-item:before, .item.list-group-item:after
+    {
+        display: table;
+        content: " ";
+        border-radius: 100px;
+    }
+
+    .item.list-group-item img
+    {
+        float: left;
+        border-radius: 100px;
+    }
+    .item.list-group-item:after
+    {
+        clear: both;
+        border-radius: 100px;
+    }
+    .list-group-item-text
+    {
+        margin: 0 0 11px;
+        border-radius: 100px;
+    }
+
+    a   {
+        color:inherit;
+        text-decoration: none;
+        }
+
+ul#navmenu a:hover{
+    color: #FFF;
+    z-index: 1000;
+    }   
+
+
+        ul#navmenu, ul.sub1, ul.sub2 {
+        padding: 10px;
+        list-style-type: none;
+        z-index: 1000;
+        }
+        ul#navmenu li {
+            z-index: 1000;
+            /*outline: 1px solid red*/
+            width: 200px;
+            text-align: center;
+            position: relative;
+            text-align: left;
+        }
+        ul#navmenu a {
+            z-index: 1000;
+            text-decoration: none;
+            display: block;
+            width: 200px;
+            height: 45px;
+            line-height: 45px;
+            background-color: #ffffff;
+            padding-left: 10px;
+        }   
+        ul#navmenu .sub1 li {
+            z-index: 1000;
+
+        }
+        ul#navmenu .su1 a {
+            z-index: 1000;
+            margin-top: 5px;
+
+
+        }
+        ul#navmenu .sub2 a {
+            z-index: 1000;
+            margin-left: 10px;
+            width: 200px;
+
+        }
+        ul#navmenu li:hover > a {
+            z-index: 1000;
+            background-color: #0098ba;
+        }
+        ul#navmenu li:hover a:hover {
+            background-color: #0098ba;
+        }
+        ul#navmenu ul.sub1 {
+            display: none;
+            position: absolute;
+            top: 45px;
+            left: 0px;
+
+        }
+        ul#navmenu ul.sub2 {
+            display: none;
+            position: absolute;
+            top: -92px;
+            left: 200px;
+            width: 800px;
+
+        }
+        ul#navmenu li:hover .sub1 {
+            display: block;
+
+        }
+        ul#navmenu .sub1 li:hover .sub2 {
+            display: block;
+
+        }
+        .sub2  {
+            text-transform: capitalize;
+            font-size: 14px;
+                        }
+        .button  {
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            background-color: #f4f4e8;
+            border: solid 1px #c7c7c7;  
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #006792;     
+            cursor: pointer; 
+            -webkit-appearance: button;
+            box-shadow: inset 0 -1px #c7c7c7;
+        }
+
+
+        .triangleTop {
+
+            position:relative;
+            left: 160px;
+            top: 30px;
+            width: 0;
+            height: 0;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #0098ba;
+            border-left: 10px solid transparent;
+            z-index: 2;
+
+
+        }
+        /* I will fix this &nbsp; business soon */
+        strong {font-size: 12px;}
+
+        .sticky-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #fff; /* Altere a cor de fundo conforme necessário */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+        }
+
+        .sticky {
+            position: fixed;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        }
+
+
+        .valorPreco {
+
+            color: #469d96;
+            font-weight: bold;
+        }
+
+        h2 {
+
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #469d96;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .card {
+            z-index: 1;
+            width: 250px;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .card .content {
+            padding: 20px;
+        }
+        
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .card button {
+            background-color: #07b633;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+        
+        .card button:hover {
+            background-color: #007928;
+        }
+
+        .card .time {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+            text-align: right;
+        }
+        
+        .card .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .button-container {
+            margin-top: 10px;
+        }
+        
+        .card button {
+            background-color: #05b814;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+        
+        .card button .mdi {
+            font-size: 16px;
+            margin-right: 5px;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.5s ease;
+        }
+
+        .logo {
+
+            display: relative;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            width: 7%;
+            height: 100%;
+            text-align: center; /* Centraliza os elementos filhos */
+            margin-top: 15px;
+            margin-bottom: 15px;
+            
+        }
+
+        a {
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            height: 100%; /* Preenche a altura do link */
+        }
+
+}
