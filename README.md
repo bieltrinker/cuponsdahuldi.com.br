@@ -1,3 +1,5 @@
+## Português
+
 ### Documentação do Site
 #### Descrição
 
@@ -24,3 +26,33 @@ Para aprimorar a experiência do usuário, o site foi desenvolvido com um design
 
 #### Contribuições
 Contribuições são bem-vindas! Se você identificar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+
+## English
+
+### Website Documentation
+#### Description
+
+This repository contains documentation for the website developed using HTML and CSS. The site was created to serve as a product posting page for promotions with affiliate links [Website](https://cuponsdahuldi.com.br/).
+
+#### Site Structure
+The site consists of an HTML page, organized as follows:
+
+- `index.html`: Homepage of the site.
+- `info.html`: Page to view individual items.
+- `css/style.css`: Site styling file.
+- `images/`: Folder with images used on the site.
+- `js/`: Backend and frontend functionality.
+- `db_produtos/products.json`: Database to store all products.
+- `admin/index.html`: System to manage `db_produtos/products.json`.
+
+![Website](images/site.png)
+
+#### Theme Customization
+The website theme can be easily customized by modifying the styles in the `style.css` and `script.js` files. These files contain the style rules that control the appearance of all elements on the site.
+
+#### Appearance Control Across Multiple Pages
+To enhance user experience, the site was developed with a responsive design that optimally adjusts for both mobile and desktop devices. This ensures smooth navigation and comfortable viewing on any device used by the user.
+
+#### Contributions
+Contributions are welcome! If you identify any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
